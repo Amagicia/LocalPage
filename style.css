@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 35px;
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav h3 {
+  font-size: 16px;
+  border: 2px solid #000;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.nav i {
+  font-size: 16px;
+  border: 2px solid #000;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.nav h1 {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.nav button {
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+#btn2 {
+  background-color: orangered;
+  border: none;
+  color: #fff;
+}
+#bg {
+  font-size: 110px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+img {
+  height: 370px;
+  width: 270px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 22px;
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#btml {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    /* font-size: 80px; */
+    height: 260px;
+    width: 150px;
+  }
+  * {
+    font-size: 12px;
+  }
+  #bg {
+    font-size: 70px;
+  }
+  .nav {
+    height: 50px;
+  }
+}
